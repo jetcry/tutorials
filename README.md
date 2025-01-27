@@ -46,7 +46,8 @@ To maintain an easy-to-use, community-driven tutorial platform, we have several 
 5. **Static Content Folder:**
    - Each tutorial folder has a reserved `static/` folder for images and other media.
    - Statics must follow this naming convention:  
-   `{ISO 639-1 language code}_{"image"/"video"/etc}_{zero-padded number}` (e.g., "en_image_01.png", "zh_image_01.png").
+   `{ISO 639-1 language code}_image_{zero-padded number}.png` (e.g., "en_image_01.png", "zh_image_01.png").
+   - Images must be in PNG format. Please, try to capture only the important parts, and crop out anything else (e.g. browser UI).
 
 6. **Tutorial Content Files:**
    - Tutorials are stored in markdown files named after ISO 639-1 language codes (`en.md`, `ru.md`, `zh.md`, etc.).
